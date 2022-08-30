@@ -1,0 +1,164 @@
+/* ini digunakan untuk css web nev coco */
+body {
+  scroll-behavior: smooth;
+  background-color: #f2e6d3;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none !important;
+}
+a:hover {
+  color: #eaeaea;
+}
+
+h2 {
+  font-weight: bolder;
+}
+
+header {
+  background-image: url(assets/hero\ background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: 0 - 300px;
+}
+
+header a {
+  color: #eaeaea;
+  margin: 1vw;
+  text-decoration: none;
+}
+
+header .navbar {
+  width: 98%;
+  margin: auto;
+}
+
+.clear {
+  clear: both;
+}
+
+.content .imageContent {
+  width: 50%;
+  float: left;
+}
+
+.content .imageContent img {
+  width: 200px;
+  margin-left: 15%;
+}
+
+.content .textContent {
+  margin-top: 25vw;
+  float: left;
+  width: 50%;
+}
+
+.gallery .galleryPicture img {
+  margin: 10px;
+  width: 200px;
+  border-radius: 1vw;
+}
+
+.productPicture .product2 .textProduct {
+  width: 100%;
+}
+
+/* .teamPicture {
+  margin: auto;
+} */
+
+.team {
+  margin: auto;
+  width: 80%;
+}
+
+.picture1,
+.picture2,
+.picture3,
+.picture4 {
+  margin-bottom: 5vw;
+}
+
+.teamPicture img {
+  width: 250px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.teamPicture .picture1 {
+  float: left;
+}
+
+.teamPicture .picture2 {
+  float: right;
+}
+
+.teamPicture .picture3 {
+  float: left;
+}
+
+.teamPicture .picture4 {
+  float: right;
+}
+
+/* css untuk mengatur logo social media di footer */
+footer .socialMedia svg {
+  margin-right: 1vw;
+}
+
+/* css untuk mengatur tulisan menu list di footer */
+footer .menuList a {
+  color: #eaeaea;
+}
+
+/* css untuk mengatur posisi 3 bagian pada footer */
+footer .footerContent {
+  padding-top: 5vh;
+  width: 90%;
+  margin: auto;
+}
+
+footer .leftSide {
+  float: left;
+  width: 39%;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+footer .centerSide {
+  float: left;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+footer .rightSide {
+  float: left;
+  margin-bottom: 5vh;
+}
+
+/* css untuk mengatur posisi logo whatsapp */
+@media only screen and (max-width: 850px) {
+  .whatsappIcon {
+    position: fixed;
+    top: 43vh;
+    left: 82vw;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .whatsappIcon {
+    position: fixed;
+    top: 85%;
+    left: 92%;
+  }
+}
+
+footer .rightSide .menuList a:hover {
+  transition: ease-in-out 0.5s;
+}
